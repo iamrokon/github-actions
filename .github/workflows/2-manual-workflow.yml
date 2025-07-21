@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: First step
+      - name: First manual step
         run: |
-          echo "Hello, World!"
-          echo "Hello again!"
+          echo "Hello, from Manual Workflow!"
+          echo "Hello again from Manual Workflow!"
