@@ -4,10 +4,10 @@ on: [push]
 
 jobs:
   first-workflow:
-  runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
 
-  steps:
-    - name: First step
-      run: |
-        echo "Hello, World!"
-        echo "Hello again!"
+    steps:
+      - name: First step
+        run: |
+          echo "Hello, World!"
+          echo "Hello again!"
