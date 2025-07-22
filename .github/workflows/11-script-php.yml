@@ -16,3 +16,6 @@ jobs:
 
       - name: Print Message
         run: echo "Script Workflow Completed"
+
+      - name: Dockerhub Login
+        run: docker login ---${{ secrets.DOCKER_USERNAME}} -p ${{ secrets.DOCKERHUB_PASSWORD }}

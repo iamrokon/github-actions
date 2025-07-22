@@ -1,0 +1,10 @@
+name: Conditional Reusable Workflow
+
+on: 
+  push:
+    paths:
+      - 'backend/**'
+
+jobs:
+  conditional-reusable-workflow:
+    uses: iamrokon/github-actions/.github/workflows/12-reusable-workflow.yml@main
