@@ -10,7 +10,7 @@ inputs:
 outputs:
   message:
     description: 'The generated greeting message'
-    value: ${{ steps.generate_greeting.outputs.message }}
+    value: ${{ steps.greeting.outputs.message }}
 
 runs:
   using: composite
